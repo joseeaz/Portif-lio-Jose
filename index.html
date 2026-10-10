@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifolio José</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="menu">
+    <a href="#inicio" class="nome-menu">José Eduardo</a>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="apresentacao">
+      <div class="conteudo aparece-rolagem">
+        <p class="etiqueta">Belo Horizonte, MG · Colégio Cotemig</p>
+        <h1>Olá, eu sou o<br><span class="texto-azul">José Eduardo.</span></h1>
+        <p class="texto-apresentacao">
+          Tenho 16 anos e estou me formando técnico em TI no Cotemig.
+          Gosto de tecnologia, quero trabalhar na área e estou em busca do meu primeiro estágio.
+        </p>
+        <p class="frase-digitada"><span id="texto-digitado"></span><span class="cursor-digitacao"></span></p>
+        <div class="grupo-botoes">
+          <a href="#projetos" class="botao botao-azul">Ver projetos</a>
+          <a href="#contato" class="botao botao-contorno">Entrar em contato</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="conteudo aparece-rolagem">
+        <p class="etiqueta">SOBRE MIM</p>
+        <h2>Quem sou eu?</h2>
+        <div class="sobre-colunas">
+          <div class="sobre-texto">
+            <p>Sou estudante do curso técnico em Informática no Colégio Cotemig, onde aprendo fundamentos de programação, redes, hardware e desenvolvimento de sistemas.</p>
+            <p>Estou no início da minha trajetória profissional e busco uma oportunidade de estágio onde eu possa aplicar o que aprendi e continuar crescendo na área de TI.</p>
+          </div>
+          <div class="sobre-informacoes">
+            <div><span>Nome</span><strong>José Eduardo</strong></div>
+            <div><span>Idade</span><strong>16 anos</strong></div>
+            <div><span>Escola</span><strong>Colégio Cotemig</strong></div>
+            <div><span>Curso</span><strong>Técnico em Informática</strong></div>
+            <div><span>Ano de ingresso</span><strong>2025</strong></div>
+            <div><span>Objetivo</span><strong>Estágio em TI</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="conteudo aparece-rolagem">
+    <section id="habilidades">
+        <p class="etiqueta">HABILIDADES</p>
+        <h2>O que eu sei fazer</h2>
+
+        <h3>Hard skills</h3>
+        <div class="lista-habilidades">
+          <div class="cartao-habilidade"><h4>Portugol</h4><p>Lógica de programação e algoritmos</p></div>
+          <div class="cartao-habilidade"><h4>C#</h4><p>Programação orientada a objetos</p></div>
+          <div class="cartao-habilidade"><h4>HTML & CSS</h4><p>Criação de páginas web</p></div>
+          <div class="cartao-habilidade"><h4>Windows</h4><p>Instalação, configuração e manutenção</p></div>
+          <div class="cartao-habilidade"><h4>Redes de Computadores</h4><p>Fundamentos de redes e protocolos</p></div>
+          <div class="cartao-habilidade"><h4>Git & GitHub</h4><p>Versionamento de código</p></div>
+          <div class="cartao-habilidade"><h4>Pacote Office</h4><p>Word, Excel, PowerPoint</p></div>
+          <div class="cartao-habilidade"><h4>Manutenção de Hardware</h4><p>Montagem e diagnóstico de computadores</p></div>
+        </div>
+
+        <h3>Soft skills</h3>
+        <div class="lista-soft-skills">
+          <span>Comunicação</span>
+          <span>Trabalho em equipe</span>
+          <span>Proatividade</span>
+          <span>Resolução de problemas</span>
+          <span>Organização</span>
+          <span>Vontade de aprender</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <div class="conteudo aparece-rolagem">
+        <p class="etiqueta">PROJETOS</p>
+        <h2>O que já construí</h2>
+        <p class="texto-secao">Ainda estou no começo — mais projetos em breve.</p>
+
+        <div class="cartao-projeto">
+          <h4>Portfólio Pessoal</h4>
+          <p>Tenho alguns projetos no GitHub onde vou colocando o que faço durante o curso.</p>
+          <button class="botao botao-contorno" id="botao-abrir-modal">Ver detalhes</button>
+        </div>
+
+        <p class="texto-github">Pode acessar em <a href="https://github.com/joseeaz" target="_blank">github.com/joseeaz</a> e acompanhar minha evolução por lá.</p>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="conteudo aparece-rolagem">
+        <p class="etiqueta">CONTATO</p>
+        <h2>Bora conversar?</h2>
+        <p class="texto-secao">Se tiver interesse em me chamar pra um estágio ou só quiser trocar uma ideia sobre tecnologia, me manda uma mensagem.</p>
+
+        <div class="item-contato"><span>E-mail</span><a href="mailto:joseeduardoac10@gmail.com">joseeduardoac10@gmail.com</a></div>
+        <div class="item-contato"><span>Telefone</span><a href="tel:+5531973396217">(31) 97339-6217</a></div>
+        <div class="item-contato"><span>GitHub</span><a href="https://github.com/joseeaz" target="_blank">github.com/joseeaz</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <strong>José Eduardo</strong>
+    <div class="rodape-links">
+      <span>joseeduardoac10@gmail.com</span>
+      <span>(31) 97339-6217</span>
+      <a href="https://github.com/joseeaz" target="_blank">github.com/joseeaz</a>
+      <span>Colégio Cotemig</span>
+    </div>
+  </footer>
+
+  <div class="fundo-modal" id="modal-projeto">
+    <div class="caixa-modal">
+      <button class="botao-fechar" id="botao-fechar-modal" aria-label="Fechar">✕</button>
+      <p class="etiqueta">DETALHES DO PROJETO</p>
+      <h3>Portfólio Pessoal</h3>
+      <p class="texto-modal">Este portfólio reúne minha apresentação profissional, habilidades, projetos e formas de contato em uma única página responsiva.</p>
+      <div class="status-projeto"><span>Status</span><strong>Em evolução</strong></div>
+      <a href="https://github.com/joseeaz" target="_blank" class="link-github-modal">Acessar meu GitHub</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
